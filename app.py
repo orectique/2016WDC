@@ -23,4 +23,5 @@ for submission in subreddit.stream.submissions():
 
     if 'nico' in submission.title or 'rosberg' in submission.title:
         submission.reply('Are you talking about Nico Rosberg, the 2016 WDC who beat Lewis Hamilton in the same machinery?')
-    time.sleep(30)
+    
+    time.sleep(10)
